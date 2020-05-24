@@ -20,8 +20,8 @@ var mixedCase = 'Hi there!'
 function sayHiToGrandma(array) {
   if (lowercase.toLowerCase() === lowercase)
     return "I can't hear you!"
-  if (uppercase.toUpperCase() === uppercase)
+  else if (uppercase.toUpperCase() === uppercase)
     return "YES INDEED!"
-  if (mixedCase.toMixedCase() === "I love you, Grandma.")
+  else (mixedCase.toMixedCase() === "I love you, Grandma.")
     return "I love you too."
 }
